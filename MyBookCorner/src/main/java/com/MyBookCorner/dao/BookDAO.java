@@ -1,6 +1,6 @@
 package com.MyBookCorner.dao;
 
-import com.MyBookCorner.model.Book; // Paket adı güncellendi
+import com.MyBookCorner.model.Book;
 import com.MyBookCorner.util.DBConnection;
 
 import java.sql.Connection;

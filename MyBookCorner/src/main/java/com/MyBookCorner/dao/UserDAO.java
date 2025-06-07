@@ -116,7 +116,7 @@ public class UserDAO {
             pstmt.setString(1, user.getUsername());
             int paramIndex = 2;
             if (user.getPassword() != null && !user.getPassword().isEmpty()) {
-                pstmt.setString(paramIndex++, user.getPassword()); // Güvenlik Notu: Hashlenmiş şifre olmalı!
+                pstmt.setString(paramIndex++, user.getPassword());
             }
             pstmt.setString(paramIndex++, user.getEmail());
             pstmt.setInt(paramIndex, user.getId());
